@@ -1,0 +1,20 @@
+{
+    propertyEditors: [
+      {
+		    alias: "Boye.SimpleCodeEditor",
+		    name: "Boye SimpleCodeEditor",
+		    editor: {
+			    view: "~/App_Plugins/boye.SimpleCodeEditor/View.html",
+			    valueType: "JSON"
+		    }		
+      }
+    ],
+    javascript: [
+        '~/App_Plugins/boye.SimpleCodeEditor/controller.js',
+		  '~/App_Plugins/boye.SimpleCodeEditor/ui-codemirror.js',
+		  '~/App_Plugins/boye.SimpleCodeEditor/codemirror.min.js',
+    ],
+	css : [
+		'~/App_Plugins/boye.SimpleCodeEditor/codemirror/lib/codemirror.css'
+	]
+}
