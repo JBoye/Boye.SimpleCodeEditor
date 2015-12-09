@@ -15,6 +15,6 @@
 		  '~/App_Plugins/boye.SimpleCodeEditor/codemirror.min.js',
     ],
 	css : [
-		'~/App_Plugins/boye.SimpleCodeEditor/codemirror/lib/codemirror.css'
+		'~/App_Plugins/boye.SimpleCodeEditor/codemirror.css'
 	]
 }
